@@ -1,9 +1,31 @@
+.boxed {
+  border: 2px solid #61dafb;
+  background-color: #282c34;
+}
+
+body {
+  background-color: #0F0F0F;
+}
+
+.Post-text {
+  color: white;
+}
+
+.Label-text {
+  color: white;
+}
+
+.Error-text {
+  color: red;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +37,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
