@@ -68,7 +68,7 @@ class PostMaker extends React.Component {
       return;
     }
     // do an axios post...
-    axios.post('http://backrust.lhickokd.workers.dev/posts', {
+    axios.post('https://backrust.lhickokd.workers.dev/posts', {
       username: this.state.inpUser,
       title: this.state.inpTitle,
       content: this.state.inpContent,
@@ -119,7 +119,7 @@ class PosterBoard extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('http://backrust.lhickokd.workers.dev/posts')
+    axios.get('https://backrust.lhickokd.workers.dev/posts')
     .then((resp) => {
       this.setState({posts: resp.data});
       //console.log(this.posts);
